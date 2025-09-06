@@ -1,3 +1,24 @@
+# 说明
+
+fork项目，添加克制化内容，只打开小鹤双拼方案，且只用中文输入法，方便`nvim`中自动切换为英文
+
+```bash
+# clone project
+git clone git@github.com:brettzhang/oh-my-rime.git --depth 1
+
+# create soft link
+ln -s ~/personal/github/oh-my-rime ~/.local/share/fcitx5/rime
+```
+
+## 安装万象模型
+参考 https://www.mintimate.cc/zh/guide/languageModel.html
+### linux 版本需要rime插件
+```
+apt install librime-plugin-octagram
+```
+
+# 原始文档
+
 ![样式](https://www.mintimate.cc/image/demo/guide.webp)
 
 - [中文 - 简体简介](README.md)
@@ -88,6 +109,7 @@ Rime 配置教程：
 - Linux
   - iBus:`/tmp`
   
+
 仓输入法 Hamster 内如何使用九宫格输入？
 
 薄荷方案内，基于[Hamster](https://github.com/imfuxiao/Hamster/) 九宫格布局和[雾凇九宫格](https://github.com/iDvel/rime-ice/blob/main/t9.schema.yaml)移植了九宫格。需要同时启用九宫格方案（输入方案设置）和九宫格布局（键盘设置 - 键盘布局 - 中文 9 键）。
