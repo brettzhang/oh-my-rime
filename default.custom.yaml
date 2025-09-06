@@ -1,5 +1,6 @@
 patch:
   schema_list:
+    - schema: double_pinyin_flypy  # 小鹤双拼
     - schema: rime_mint_flypy      # 薄荷拼音-小鹤混输方案 # 方便其他人使用，所以保留全拼。
   key_binder:
     bindings:
