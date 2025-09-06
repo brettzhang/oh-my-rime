@@ -1,6 +1,6 @@
 # 说明
 
-fork项目，添加克制化内容，只打开小鹤双拼方案，且只用中文输入法，方便`nvim`中自动切换为英文
+fork项目，添加克制化内容，只打开了双拼/全拼输入方案，且只用中文输入法，方便`nvim`中自动切换为英文
 
 ```bash
 # clone project
@@ -11,6 +11,9 @@ ln -s ~/personal/github/oh-my-rime ~/.local/share/fcitx5/rime
 ```
 
 ## 安装万象模型
+
+>   未使用，感觉效果一般，没感觉出来有啥区别
+
 参考 https://www.mintimate.cc/zh/guide/languageModel.html
 ### linux 版本需要rime插件
 ```
